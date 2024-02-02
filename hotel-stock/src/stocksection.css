@@ -1,0 +1,28 @@
+.alert-table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 5px 7px 8px 2px rgb(22 214 79 / 77%);
+    margin-top: 20px;
+  }
+  
+  .alert-table th
+   {
+    background-color: #4CAF50;
+    /* border: 1px solid #6fd94f; */
+    
+    
+   
+  }
+  .alert-table td{
+    padding: 10px 15px;
+  }
+  .alert-header {
+    background-color: #d9534f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+   
+  }
+  .fullstocksection{
+    padding: 50px;
+  }

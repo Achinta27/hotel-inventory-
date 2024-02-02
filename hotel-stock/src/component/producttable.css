@@ -1,0 +1,138 @@
+.fulltable {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 50px;
+}
+
+.tablecont {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  box-shadow: 5px 7px 8px 2px rgb(22 214 79 / 77%);
+}
+
+.sort-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 99%;
+}
+
+th,
+td {
+  padding: 10px 15px;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.sort {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.sortoption {
+  font-size: 16px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sortoption:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* Delete Icon Style */
+svg {
+  cursor: pointer;
+  color: #f70404;
+}
+
+svg:hover {
+  color: #460909;
+}
+.save-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.save-button:hover {
+  background-color: #46f0d1;
+  color: #b71c1c;
+}
+
+.save-button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+.savebuttonfull {
+  padding-left: 31px;
+}
+h1 {
+  padding: 12px;
+}
+tbody tr {
+  border-bottom: 1px solid #aff6a2;
+}
+tbody td {
+  text-align: center;
+  vertical-align: middle;
+}
+.search-bar {
+  margin-left: 10px;
+  padding: 5px 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  width: 18%;
+}
+.add-button {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 8px 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+}
+
+.add-button:hover {
+  background-color: #45a049;
+}
+.add-button svg {
+  border: 1px solid #ffffff;
+  border-radius: 1%;
+  padding: 2px;
+  margin-right: 5px;
+  color: #f2fe06;
+}
+.presenstock {
+  width: 60%;
+  padding: 8px;
+  margin-top: 7px;
+  border: 2px solid #ccc;
+  border-radius: 14px;
+  object-fit: cover;
+}

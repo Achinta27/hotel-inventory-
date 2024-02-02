@@ -1,0 +1,11 @@
+h2{
+    padding: 10px
+}
+.card-img-top{
+    height: 13rem;
+}
+.card-text-1{
+    color: brown;
+    font-size: 15px;
+    font-weight: bold;
+}
